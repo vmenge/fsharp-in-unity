@@ -12,6 +12,7 @@ MyUnityProject/
 # etc
 ```
 2 - Edit the `scripts/GenerateUnityReferences.fsx` to point to the proper directory on your computer and the property Unity version.
+
 3 - Run `GenerateUnityReferences.fsx`
 
 This will create a `Generated.References.props` file inside your `fs` folder. This file is referenced by `fs.fsproj` and will allow you to use all Unity packages within your F# package.
